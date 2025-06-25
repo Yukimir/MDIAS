@@ -20,7 +20,6 @@ import {
 } from 'antd';
 import { 
   ArrowLeftOutlined, 
-  UploadOutlined,
   InboxOutlined,
   CheckOutlined,
   ClearOutlined,

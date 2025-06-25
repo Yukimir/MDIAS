@@ -1,15 +1,17 @@
 import type { FileCategory } from './index';
 
-// 上传状态枚举
-export enum UploadStatus {
-  PENDING = 'pending',       // 待上传
-  UPLOADING = 'uploading',   // 上传中
-  COMPLETED = 'completed',   // 上传完成
-  ANALYZING = 'analyzing',   // 后端分析中
-  READY = 'ready',          // 已分析完成，可编辑
-  FAILED = 'failed',        // 上传失败
-  CANCELLED = 'cancelled'    // 已取消
-}
+// 上传状态枚举 - 使用常量对象以兼容严格的TypeScript配置
+export const UploadStatus = {
+  PENDING: 'pending',       // 待上传
+  UPLOADING: 'uploading',   // 上传中
+  COMPLETED: 'completed',   // 上传完成
+  ANALYZING: 'analyzing',   // 后端分析中
+  READY: 'ready',          // 已分析完成，可编辑
+  FAILED: 'failed',        // 上传失败
+  CANCELLED: 'cancelled'    // 已取消
+} as const;
+
+export type UploadStatus = (typeof UploadStatus)[keyof typeof UploadStatus];
 
 // 智能建议接口
 export interface SmartSuggestions {

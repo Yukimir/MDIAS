@@ -26,7 +26,7 @@ const mockCategories: FileCategory[] = [
 ];
 
 // Mock智能分析函数（模拟后端分析）
-const generateSmartSuggestions = (fileName: string, fileType: string): SmartSuggestions => {
+const generateSmartSuggestions = (fileName: string, _fileType: string): SmartSuggestions => {
   const lowerName = fileName.toLowerCase();
   
   // 简单的关键词匹配逻辑

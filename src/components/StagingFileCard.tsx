@@ -22,7 +22,7 @@ import {
   SyncOutlined,
   LoadingOutlined
 } from '@ant-design/icons';
-import { useTranslation } from 'react-i18next';
+
 import { useRTL } from '../hooks/useRTL';
 import type { StagingFile, UploadStatus } from '../types/staging';
 import type { FileCategory } from '../types';
@@ -49,7 +49,6 @@ export const StagingFileCard: React.FC<StagingFileCardProps> = ({
   onDelete,
   onApplySuggestion,
 }) => {
-  const { t } = useTranslation(['common', 'file']);
   const { isRTL, iconTransform } = useRTL();
   const [editing, setEditing] = useState(false);
   const [editData, setEditData] = useState({
