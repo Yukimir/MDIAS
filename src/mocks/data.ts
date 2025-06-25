@@ -1,47 +1,47 @@
 import type { Project, FileItem, FileCategory, ProjectStatus } from '../types';
 import { FILE_STATUS } from '../types';
 
-// 模拟文件分类数据
+// Mock file category data
 export const mockCategories: FileCategory[] = [
   {
     id: '1',
-    name: '申请表',
-    description: '设备注册申请表',
+    name: 'Application Form',
+    description: 'Device registration application form',
     required: true,
     order: 1,
   },
   {
     id: '2',
-    name: '产品说明书',
-    description: '设备使用说明书',
+    name: 'Product Manual',
+    description: 'Device instruction manual',
     required: true,
     order: 2,
   },
   {
     id: '3',
-    name: '产品设计图',
-    description: '设备设计图纸',
+    name: 'Product Design',
+    description: 'Device design drawings',
     required: true,
     order: 3,
   },
   {
     id: '4',
-    name: '技术规格书',
-    description: '设备技术规格说明',
+    name: 'Technical Specifications',
+    description: 'Device technical specification document',
     required: true,
     order: 4,
   },
   {
     id: '5',
-    name: '质量管理体系',
-    description: '质量管理体系文件',
+    name: 'Quality Management System',
+    description: 'Quality management system documents',
     required: false,
     order: 5,
   },
   {
     id: '6',
-    name: '检验报告',
-    description: '第三方检验报告',
+    name: 'Test Report',
+    description: 'Third-party test reports',
     required: true,
     order: 6,
   },
@@ -68,7 +68,7 @@ export const mockProjects: Project[] = [
       deprecated: 0,
     },
     isComplete: false,
-    missingCategories: ['技术规格书', '检验报告'],
+    missingCategories: ['Technical Specifications', 'Test Report'],
   },
   {
     id: '2',
@@ -89,7 +89,7 @@ export const mockProjects: Project[] = [
       deprecated: 0,
     },
     isComplete: false,
-    missingCategories: ['产品设计图'],
+    missingCategories: ['Product Design'],
   },
   {
     id: '3',

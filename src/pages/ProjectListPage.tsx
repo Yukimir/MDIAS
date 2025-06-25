@@ -169,7 +169,7 @@ export const ProjectListPage: React.FC = () => {
         ) : (
           <Row gutter={[24, 24]}>
             {projects.map((project) => (
-              <Col xs={24} sm={12} lg={8} xl={6} key={project.id}>
+              <Col xs={24} sm={12} lg={8} xl={8} xxl={6} key={project.id}>
                 <ProjectCard project={project} />
               </Col>
             ))}

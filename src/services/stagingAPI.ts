@@ -17,12 +17,12 @@ const GRAY_THUMBNAIL = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaH
 
 // Mock分类数据（实际项目中应该从categoryAPI获取）
 const mockCategories: FileCategory[] = [
-  { id: '1', name: '申请表', description: '各类申请表格', required: true, order: 1 },
-  { id: '2', name: '产品说明书', description: '产品使用说明书', required: true, order: 2 },
-  { id: '3', name: '技术文档', description: '技术规格说明', required: false, order: 3 },
-  { id: '4', name: '检测报告', description: '第三方检测报告', required: true, order: 4 },
-  { id: '5', name: '设计图纸', description: '产品设计图纸', required: false, order: 5 },
-  { id: '6', name: '临床试验', description: '临床试验相关文档', required: false, order: 6 },
+  { id: '1', name: 'Application Form', description: 'Various application forms', required: true, order: 1 },
+  { id: '2', name: 'Product Manual', description: 'Product instruction manual', required: true, order: 2 },
+  { id: '3', name: 'Technical Documentation', description: 'Technical specifications', required: false, order: 3 },
+  { id: '4', name: 'Test Report', description: 'Third-party test reports', required: true, order: 4 },
+  { id: '5', name: 'Design Drawings', description: 'Product design drawings', required: false, order: 5 },
+  { id: '6', name: 'Clinical Trial', description: 'Clinical trial related documents', required: false, order: 6 },
 ];
 
 // Mock智能分析函数（模拟后端分析）
