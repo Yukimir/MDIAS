@@ -1,0 +1,48 @@
+{
+  "title": "M.D.I.A.S.",
+  "nav": {
+    "projects": "المشاريع",
+    "categories": "التصنيفات",
+    "upload": "رفع الملفات"
+  },
+  "button": {
+    "create": "إنشاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "submit": "إرسال",
+    "approve": "موافقة",
+    "reject": "رفض",
+    "preview": "معاينة",
+    "upload": "رفع",
+    "download": "تحميل",
+    "back": "رجوع",
+    "add": "إضافة",
+    "remove": "إزالة",
+    "confirm": "تأكيد",
+    "reset": "إعادة تعيين",
+    "close": "إغلاق",
+    "refresh": "تحديث"
+  },
+  "status": {
+    "submitted": "مُرسل",
+    "preliminary": "قيد المراجعة الأولية",
+    "review": "قيد المراجعة",
+    "approved": "مُعتمد"
+  },
+  "form": {
+    "required": "هذا الحقل مطلوب",
+    "name": "الاسم",
+    "description": "الوصف",
+    "type": "النوع",
+    "code": "الرمز",
+    "applicant": "مقدم الطلب"
+  },
+  "message": {
+    "success": "تمت العملية بنجاح",
+    "error": "فشلت العملية",
+    "confirm": "تأكيد العملية",
+    "loading": "جاري التحميل..."
+  }
+} 

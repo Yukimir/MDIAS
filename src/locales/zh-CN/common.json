@@ -1,0 +1,48 @@
+{
+  "title": "M.D.I.A.S.",
+  "nav": {
+    "projects": "项目管理",
+    "categories": "分类管理",
+    "upload": "文件上传"
+  },
+  "button": {
+    "create": "创建",
+    "edit": "编辑",
+    "delete": "删除",
+    "save": "保存",
+    "cancel": "取消",
+    "submit": "提交",
+    "approve": "批准",
+    "reject": "拒绝",
+    "preview": "预览",
+    "upload": "上传",
+    "download": "下载",
+    "back": "返回",
+    "add": "添加",
+    "remove": "移除",
+    "confirm": "确认",
+    "reset": "重置",
+    "close": "关闭",
+    "refresh": "刷新"
+  },
+  "status": {
+    "submitted": "已提交",
+    "preliminary": "预审中",
+    "review": "复审中",
+    "approved": "已许可"
+  },
+  "form": {
+    "required": "此字段为必填项",
+    "name": "名称",
+    "description": "描述",
+    "type": "类型",
+    "code": "编号",
+    "applicant": "申请方"
+  },
+  "message": {
+    "success": "操作成功",
+    "error": "操作失败",
+    "confirm": "确认操作",
+    "loading": "加载中..."
+  }
+} 

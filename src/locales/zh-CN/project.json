@@ -1,0 +1,42 @@
+{
+  "list": {
+    "title": "项目列表",
+    "create": "新建项目",
+    "search": "搜索项目名称或编号",
+    "filter": "筛选",
+    "statistics": "统计信息",
+    "fileCount": "文件数量: {{count}}",
+    "updateTime": "更新时间：{{time}}",
+    "noData": "暂无项目数据",
+    "missingFiles": "文件不齐全",
+    "missingCategories": "缺少文件分类：{{categories}}"
+  },
+  "detail": {
+    "title": "项目详情",
+    "basicInfo": "基本信息", 
+    "files": "项目文件",
+    "allFiles": "所有文件",
+    "byCategory": "按分类查看"
+  },
+  "form": {
+    "title": "项目信息",
+    "name": "项目名称",
+    "code": "项目编号",
+    "type": "器械类型",
+    "applicant": "申请方",
+    "description": "项目介绍",
+    "deviceTypes": {
+      "stethoscope": "听诊器",
+      "bloodPressure": "血压仪",
+      "thermometer": "体温计",
+      "glucose": "血糖仪",
+      "xray": "X光设备",
+      "ultrasound": "超声设备"
+    }
+  },
+  "status": {
+    "active": "进行中",
+    "completed": "已完成",
+    "suspended": "已暂停"
+  }
+} 

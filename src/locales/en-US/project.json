@@ -1,0 +1,42 @@
+{
+  "list": {
+    "title": "Projects",
+    "create": "New Project",
+    "search": "Search projects",
+    "filter": "Filter",
+    "noData": "No projects found",
+    "updateTime": "Updated: {{time}}",
+    "missingFiles": "Incomplete files",
+    "missingCategories": "Missing categories: {{categories}}",
+    "statistics": "Statistics",
+    "fileCount": "File Count: {{count}}"
+  },
+  "detail": {
+    "title": "Project Details",
+    "basicInfo": "Basic Information",
+    "files": "Project Files",
+    "allFiles": "All Files",
+    "byCategory": "By Category"
+  },
+  "form": {
+    "title": "Project Information",
+    "name": "Project Name",
+    "code": "Project Code",
+    "type": "Device Type",
+    "applicant": "Applicant",
+    "description": "Project Description",
+    "deviceTypes": {
+      "stethoscope": "Stethoscope",
+      "bloodPressure": "Blood Pressure Monitor",
+      "thermometer": "Thermometer",
+      "glucose": "Glucose Meter",
+      "xray": "X-ray Equipment",
+      "ultrasound": "Ultrasound Equipment"
+    }
+  },
+  "status": {
+    "active": "Active",
+    "completed": "Completed",
+    "suspended": "Suspended"
+  }
+} 

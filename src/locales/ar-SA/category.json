@@ -1,0 +1,56 @@
+{
+  "title": "إدارة التصنيفات",
+  "list": {
+    "title": "قائمة تصنيفات الملفات",
+    "create": "إنشاء تصنيف",
+    "empty": "لا توجد بيانات تصنيفات",
+    "total": "إجمالي {{count}} تصنيفات",
+    "dragTip": "نصيحة إعادة الترتيب",
+    "dragDescription": "يمكنك سحب عناصر التصنيف أو استخدام أزرار الأسهم لأعلى/أسفل لتعديل ترتيب عرض التصنيفات."
+  },
+  "form": {
+    "title": "معلومات التصنيف",
+    "name": "اسم التصنيف",
+    "description": "وصف التصنيف",
+    "required": "مطلوب",
+    "order": "ترتيب العرض",
+    "namePlaceholder": "يرجى إدخال اسم التصنيف",
+    "descriptionPlaceholder": "يرجى إدخال وصف التصنيف",
+    "requiredOptions": {
+      "true": "مطلوب",
+      "false": "اختياري"
+    }
+  },
+  "actions": {
+    "edit": "تعديل",
+    "delete": "حذف",
+    "moveUp": "نقل للأعلى",
+    "moveDown": "نقل للأسفل",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء"
+  },
+  "modal": {
+    "createTitle": "إنشاء تصنيف",
+    "editTitle": "تعديل التصنيف",
+    "deleteTitle": "حذف التصنيف",
+    "deleteContent": "هل أنت متأكد من حذف التصنيف \"{{name}}\"؟ لا يمكن التراجع عن هذا الإجراء.",
+    "deleteConfirm": "تأكيد الحذف",
+    "deleteCancel": "إلغاء"
+  },
+  "message": {
+    "createSuccess": "تم إنشاء التصنيف بنجاح",
+    "updateSuccess": "تم تحديث التصنيف بنجاح",
+    "deleteSuccess": "تم حذف التصنيف بنجاح",
+    "createError": "فشل في إنشاء التصنيف",
+    "updateError": "فشل في تحديث التصنيف",
+    "deleteError": "فشل في حذف التصنيف",
+    "fetchError": "فشل في جلب قائمة التصنيفات",
+    "orderUpdateSuccess": "تم تحديث ترتيب التصنيفات بنجاح"
+  },
+  "validation": {
+    "nameRequired": "اسم التصنيف مطلوب",
+    "descriptionRequired": "وصف التصنيف مطلوب",
+    "nameLength": "يجب أن يكون طول اسم التصنيف بين 2-50 حرف",
+    "descriptionLength": "يجب أن يكون طول وصف التصنيف بين 5-200 حرف"
+  }
+} 

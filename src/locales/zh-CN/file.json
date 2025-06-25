@@ -1,0 +1,137 @@
+{
+  "title": "文件管理",
+  "list": {
+    "title": "文件列表",
+    "upload": "上传文件",
+    "empty": "暂无文件",
+    "total": "共 {{count}} 个文件",
+    "dragUpload": "点击或拖拽文件到此区域上传",
+    "dragUploadHint": "支持单个或批量文件上传。严禁上传涉密文件。",
+    "searchPlaceholder": "搜索文件名称或描述"
+  },
+  "status": {
+    "submitted": "已提交",
+    "preliminary": "预审中",
+    "review": "复审中",
+    "approved": "已通过",
+    "rejected": "已驳回",
+    "deprecated": "已废弃",
+    "processing": "处理中"
+  },
+  "actions": {
+    "view": "查看",
+    "download": "下载",
+    "approve": "通过",
+    "reject": "驳回",
+    "deprecate": "废弃",
+    "restore": "恢复",
+    "review": "审批",
+    "preview": "预览"
+  },
+  "form": {
+    "fileName": "文件名称",
+    "description": "文件描述",
+    "category": "文件分类",
+    "fileNamePlaceholder": "请输入文件名称",
+    "descriptionPlaceholder": "请输入文件描述",
+    "categoryPlaceholder": "请选择文件分类",
+    "reviewComment": "审批意见",
+    "reviewCommentPlaceholder": "请输入审批意见"
+  },
+  "modal": {
+    "uploadTitle": "上传文件",
+    "reviewTitle": "审批文件",
+    "previewTitle": "文件预览",
+    "deprecateTitle": "废弃文件",
+    "deprecateContent": "确定要废弃文件\"{{name}}\"吗？废弃后文件将显示为灰色状态。",
+    "restoreTitle": "恢复文件",
+    "restoreContent": "确定要恢复已废弃的文件\"{{name}}\"吗？",
+    "deleteTitle": "注意",
+    "deleteContent": "系统不支持删除文件，只能将文件标记为废弃状态。",
+    "clearTitle": "确认清空预备区",
+    "clearContent": "确定要清空整个预备区吗？所有未确认的文件将被删除，此操作不可恢复。",
+    "rejectTitle": "文件否决"
+  },
+  "message": {
+    "uploadSuccess": "文件上传成功",
+    "uploadError": "文件上传失败",
+    "approveSuccess": "文件审批通过",
+    "rejectSuccess": "文件已驳回",
+    "deprecateSuccess": "文件已废弃",
+    "restoreSuccess": "文件已恢复",
+    "downloadSuccess": "开始下载文件",
+    "previewError": "文件预览失败",
+    "formatNotSupported": "不支持此文件格式的预览",
+    "fetchFailed": "获取文件失败",
+    "uploadSuccess": "成功上传 {{count}} 个文件",
+    "uploadFailed": "文件上传失败",
+    "updateSuccess": "文件信息已更新",
+    "updateFailed": "更新文件信息失败",
+    "deleteSuccess": "文件已删除",
+    "deleteFailed": "删除文件失败",
+    "applySuggestionSuccess": "已应用智能建议",
+    "applySuggestionFailed": "应用建议失败",
+    "selectFilesFirst": "请选择要确认的文件",
+    "confirmSuccess": "成功确认 {{count}} 个文件到正式列表",
+    "confirmFailed": "确认文件失败",
+    "clearSuccess": "预备区已清空",
+    "clearFailed": "清空预备区失败"
+  },
+  "validation": {
+    "fileNameRequired": "文件名称不能为空",
+    "descriptionRequired": "文件描述不能为空",
+    "categoryRequired": "请选择文件分类",
+    "reviewCommentRequired": "审批意见不能为空",
+    "fileRequired": "请选择要上传的文件"
+  },
+  "info": {
+    "uploadedAt": "上传时间",
+    "fileSize": "文件大小",
+    "uploader": "上传者",
+    "reviewer": "审批人",
+    "reviewedAt": "审批时间",
+    "deprecated": "此文件已被废弃"
+  },
+  "filter": {
+    "pending": "待审批",
+    "all": "全部",
+    "status": "状态筛选",
+    "category": "分类筛选"
+  },
+  "upload": {
+    "intelligent": "智能上传"
+  },
+  "staging": {
+    "title": "文件预备区",
+    "stats": {
+      "total": "总文件数",
+      "uploading": "上传中",
+      "analyzing": "分析中",
+      "ready": "就绪"
+    },
+    "searchPlaceholder": "搜索文件名或描述",
+    "statusFilter": "状态筛选",
+    "status": {
+      "uploading": "上传中",
+      "analyzing": "分析中",
+      "ready": "就绪",
+      "failed": "失败"
+    },
+    "selectAll": "全选就绪文件 ({{selected}}/{{total}})",
+    "confirmSelected": "确认选中文件 ({{count}})",
+    "clearAll": "清空预备区",
+    "uploadText": "点击或拖拽文件到此区域上传",
+    "uploadHint": "支持 PDF、Word、Excel、图片等格式，单个文件最大 50MB",
+    "empty": "预备区暂无文件",
+    "uploadAlert": {
+      "title": "文件上传提醒",
+      "description": "有 {{count}} 个文件上传失败，请检查文件格式和大小后重新上传。"
+    },
+    "totalFiles": "共 {{count}} 个文件"
+  },
+  "preview": {
+    "fallbackTitle": "PDF预览提示",
+    "fallbackDescription": "如果PDF无法正常显示，可能是浏览器兼容性问题。",
+    "openInNewTab": "在新标签页中打开文件"
+  }
+} 

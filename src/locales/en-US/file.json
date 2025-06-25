@@ -1,0 +1,137 @@
+{
+  "title": "File Management",
+  "list": {
+    "title": "File List",
+    "upload": "Upload File",
+    "empty": "No files",
+    "total": "Total {{count}} files",
+    "dragUpload": "Click or drag files to this area to upload",
+    "dragUploadHint": "Support for single or bulk upload. Uploading confidential files is strictly prohibited.",
+    "searchPlaceholder": "Search files by name or description"
+  },
+  "status": {
+    "submitted": "Submitted",
+    "preliminary": "Preliminary Review",
+    "review": "Under Review",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "deprecated": "Deprecated",
+    "processing": "Processing"
+  },
+  "actions": {
+    "view": "View",
+    "download": "Download",
+    "approve": "Approve",
+    "reject": "Reject",
+    "deprecate": "Deprecate",
+    "restore": "Restore",
+    "review": "Review",
+    "preview": "Preview"
+  },
+  "form": {
+    "fileName": "File Name",
+    "description": "File Description",
+    "category": "File Category",
+    "fileNamePlaceholder": "Please enter file name",
+    "descriptionPlaceholder": "Please enter file description",
+    "categoryPlaceholder": "Please select file category",
+    "reviewComment": "Review Comment",
+    "reviewCommentPlaceholder": "Please enter review comment"
+  },
+  "modal": {
+    "uploadTitle": "Upload File",
+    "reviewTitle": "Review File",
+    "previewTitle": "File Preview",
+    "deprecateTitle": "Deprecate File",
+    "deprecateContent": "Are you sure you want to deprecate file \"{{name}}\"? Deprecated files will be marked in gray but can still be restored.",
+    "restoreTitle": "Restore File",
+    "restoreContent": "Are you sure you want to restore the deprecated file \"{{name}}\"?",
+    "deleteTitle": "Notice",
+    "deleteContent": "The system does not support deleting files, only marking them as deprecated.",
+    "clearTitle": "Confirm Clear Staging Area",
+    "clearContent": "Are you sure you want to clear the entire staging area? All unconfirmed files will be deleted. This action cannot be undone.",
+    "rejectTitle": "File Rejection"
+  },
+  "message": {
+    "uploadSuccess": "File uploaded successfully",
+    "uploadError": "File upload failed",
+    "approveSuccess": "File approved",
+    "rejectSuccess": "File rejected",
+    "deprecateSuccess": "File deprecated",
+    "restoreSuccess": "File restored",
+    "downloadSuccess": "File download started",
+    "previewError": "File preview failed",
+    "formatNotSupported": "Preview not supported for this file format",
+    "fetchFailed": "Failed to fetch files",
+    "uploadSuccess": "Successfully uploaded {{count}} files",
+    "uploadFailed": "File upload failed",
+    "updateSuccess": "File information updated",
+    "updateFailed": "Failed to update file information",
+    "deleteSuccess": "File deleted",
+    "deleteFailed": "Failed to delete file",
+    "applySuggestionSuccess": "Smart suggestion applied",
+    "applySuggestionFailed": "Failed to apply suggestion",
+    "selectFilesFirst": "Please select files to confirm",
+    "confirmSuccess": "Successfully confirmed {{count}} files to the main list",
+    "confirmFailed": "Failed to confirm files",
+    "clearSuccess": "Staging area cleared",
+    "clearFailed": "Failed to clear staging area"
+  },
+  "validation": {
+    "fileNameRequired": "File name is required",
+    "descriptionRequired": "File description is required",
+    "categoryRequired": "Please select file category",
+    "reviewCommentRequired": "Review comment is required",
+    "fileRequired": "Please select file to upload"
+  },
+  "info": {
+    "uploadedAt": "Uploaded At",
+    "fileSize": "File Size",
+    "uploader": "Uploader",
+    "reviewer": "Reviewer",
+    "reviewedAt": "Reviewed At",
+    "deprecated": "This file has been deprecated"
+  },
+  "filter": {
+    "pending": "Pending",
+    "all": "All",
+    "status": "Filter by Status",
+    "category": "Filter by Category"
+  },
+  "upload": {
+    "intelligent": "Smart Upload"
+  },
+  "staging": {
+    "title": "File Staging Area",
+    "stats": {
+      "total": "Total Files",
+      "uploading": "Uploading",
+      "analyzing": "Analyzing",
+      "ready": "Ready"
+    },
+    "searchPlaceholder": "Search files by name or description",
+    "statusFilter": "Filter by Status",
+    "status": {
+      "uploading": "Uploading",
+      "analyzing": "Analyzing",
+      "ready": "Ready",
+      "failed": "Failed"
+    },
+    "selectAll": "Select All Ready Files ({{selected}}/{{total}})",
+    "confirmSelected": "Confirm Selected Files ({{count}})",
+    "clearAll": "Clear All",
+    "uploadText": "Click or drag files to this area to upload",
+    "uploadHint": "Supports PDF, Word, Excel, images, etc. Max file size 50MB",
+    "empty": "No files in staging area",
+    "uploadAlert": {
+      "title": "Upload Reminder",
+      "description": "{{count}} files failed to upload. Please check file format and size before retrying."
+    },
+    "totalFiles": "Total {{count}} files"
+  },
+  "preview": {
+    "fallbackTitle": "PDF Preview Notice",
+    "fallbackDescription": "If the PDF cannot be displayed properly, it may be due to browser compatibility issues.",
+    "openInNewTab": "Open file in new tab"
+  }
+} 

@@ -1,0 +1,56 @@
+{
+  "title": "Category Management",
+  "list": {
+    "title": "File Category List",
+    "create": "Create Category",
+    "empty": "No category data",
+    "total": "Total {{count}} categories",
+    "dragTip": "Drag to Reorder",
+    "dragDescription": "You can drag category items or use the up/down arrow buttons to adjust the display order of categories."
+  },
+  "form": {
+    "title": "Category Information",
+    "name": "Category Name",
+    "description": "Category Description",
+    "required": "Required",
+    "order": "Display Order",
+    "namePlaceholder": "Please enter category name",
+    "descriptionPlaceholder": "Please enter category description",
+    "requiredOptions": {
+      "true": "Required",
+      "false": "Optional"
+    }
+  },
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "moveUp": "Move Up",
+    "moveDown": "Move Down",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "modal": {
+    "createTitle": "Create Category",
+    "editTitle": "Edit Category",
+    "deleteTitle": "Delete Category",
+    "deleteContent": "Are you sure you want to delete category \"{{name}}\"? This action cannot be undone.",
+    "deleteConfirm": "Confirm Delete",
+    "deleteCancel": "Cancel"
+  },
+  "message": {
+    "createSuccess": "Category created successfully",
+    "updateSuccess": "Category updated successfully",
+    "deleteSuccess": "Category deleted successfully",
+    "createError": "Failed to create category",
+    "updateError": "Failed to update category",
+    "deleteError": "Failed to delete category",
+    "fetchError": "Failed to fetch categories",
+    "orderUpdateSuccess": "Category order updated successfully"
+  },
+  "validation": {
+    "nameRequired": "Category name is required",
+    "descriptionRequired": "Category description is required",
+    "nameLength": "Category name should be 2-50 characters long",
+    "descriptionLength": "Category description should be 5-200 characters long"
+  }
+} 

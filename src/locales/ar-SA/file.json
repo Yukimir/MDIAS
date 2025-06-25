@@ -1,0 +1,135 @@
+{
+  "title": "إدارة الملفات",
+  "list": {
+    "title": "قائمة الملفات",
+    "upload": "رفع ملف",
+    "empty": "لا توجد ملفات",
+    "total": "إجمالي {{count}} ملف",
+    "dragUpload": "انقر أو اسحب الملفات إلى هذه المنطقة للرفع",
+    "dragUploadHint": "دعم الرفع المفرد أو المتعدد. يُمنع بشدة رفع الملفات السرية.",
+    "searchPlaceholder": "البحث في الملفات بالاسم أو الوصف"
+  },
+  "status": {
+    "submitted": "مُرسل",
+    "preliminary": "المراجعة الأولية",
+    "review": "قيد المراجعة",
+    "approved": "مُعتمد",
+    "rejected": "مرفوض",
+    "deprecated": "مُهجر",
+    "processing": "قيد المعالجة"
+  },
+  "actions": {
+    "view": "عرض",
+    "download": "تحميل",
+    "approve": "موافقة",
+    "reject": "رفض",
+    "deprecate": "إلغاء",
+    "restore": "استعادة",
+    "review": "مراجعة",
+    "preview": "معاينة"
+  },
+  "form": {
+    "fileName": "اسم الملف",
+    "description": "وصف الملف",
+    "category": "فئة الملف",
+    "fileNamePlaceholder": "يرجى إدخال اسم الملف",
+    "descriptionPlaceholder": "يرجى إدخال وصف الملف",
+    "categoryPlaceholder": "يرجى اختيار فئة الملف",
+    "reviewComment": "تعليق المراجعة",
+    "reviewCommentPlaceholder": "يرجى إدخال تعليق المراجعة"
+  },
+  "modal": {
+    "uploadTitle": "رفع ملف",
+    "reviewTitle": "مراجعة الملف",
+    "previewTitle": "معاينة الملف",
+    "deprecateTitle": "إلغاء الملف",
+    "deprecateContent": "هل أنت متأكد من إلغاء الملف \"{{name}}\"؟ الملفات الملغاة ستُعلم باللون الرمادي ولكن يمكن استعادتها.",
+    "restoreTitle": "استعادة الملف",
+    "restoreContent": "هل أنت متأكد من استعادة الملف الملغى \"{{name}}\"؟",
+    "deleteTitle": "تأكيد الحذف",
+    "deleteContent": "هل أنت متأكد من حذف هذا الملف؟ لا يمكن التراجع عن هذا الإجراء.",
+    "clearTitle": "تأكيد مسح منطقة التجهيز",
+    "clearContent": "هل أنت متأكد من مسح منطقة التجهيز بالكامل؟ سيتم حذف جميع الملفات غير المؤكدة. لا يمكن التراجع عن هذا الإجراء.",
+    "rejectTitle": "رفض الملف"
+  },
+  "message": {
+    "uploadSuccess": "تم رفع {{count}} ملف بنجاح",
+    "uploadFailed": "فشل رفع الملف",
+    "approveSuccess": "تمت الموافقة على الملف",
+    "rejectSuccess": "تم رفض الملف",
+    "deprecateSuccess": "تم إلغاء الملف",
+    "restoreSuccess": "تم استعادة الملف",
+    "downloadSuccess": "بدأ تحميل الملف",
+    "previewError": "فشل في معاينة الملف",
+    "formatNotSupported": "المعاينة غير مدعومة لهذا تنسيق الملف",
+    "fetchFailed": "فشل في جلب الملفات",
+    "updateSuccess": "تم تحديث معلومات الملف",
+    "updateFailed": "فشل في تحديث معلومات الملف",
+    "deleteSuccess": "تم حذف الملف",
+    "deleteFailed": "فشل في حذف الملف",
+    "applySuggestionSuccess": "تم تطبيق الاقتراح الذكي",
+    "applySuggestionFailed": "فشل في تطبيق الاقتراح",
+    "selectFilesFirst": "يرجى تحديد الملفات للتأكيد",
+    "confirmSuccess": "تم تأكيد {{count}} ملف بنجاح إلى القائمة الرئيسية",
+    "confirmFailed": "فشل في تأكيد الملفات",
+    "clearSuccess": "تم مسح منطقة التجهيز",
+    "clearFailed": "فشل في مسح منطقة التجهيز"
+  },
+  "validation": {
+    "fileNameRequired": "اسم الملف مطلوب",
+    "descriptionRequired": "وصف الملف مطلوب",
+    "categoryRequired": "يرجى اختيار فئة الملف",
+    "reviewCommentRequired": "تعليق المراجعة مطلوب",
+    "fileRequired": "يرجى اختيار ملف للرفع"
+  },
+  "info": {
+    "uploadedAt": "وقت الرفع",
+    "fileSize": "حجم الملف",
+    "uploader": "الرافع",
+    "reviewer": "المراجع",
+    "reviewedAt": "وقت المراجعة",
+    "deprecated": "هذا الملف تم إلغاؤه"
+  },
+  "filter": {
+    "pending": "معلق",
+    "all": "الكل",
+    "status": "تصفية حسب الحالة",
+    "category": "تصفية حسب الفئة"
+  },
+  "upload": {
+    "intelligent": "رفع ذكي"
+  },
+  "staging": {
+    "title": "منطقة تجهيز الملفات",
+    "stats": {
+      "total": "إجمالي الملفات",
+      "uploading": "قيد الرفع",
+      "analyzing": "قيد التحليل",
+      "ready": "جاهز"
+    },
+    "searchPlaceholder": "البحث في الملفات بالاسم أو الوصف",
+    "statusFilter": "تصفية حسب الحالة",
+    "status": {
+      "uploading": "قيد الرفع",
+      "analyzing": "قيد التحليل",
+      "ready": "جاهز",
+      "failed": "فشل"
+    },
+    "selectAll": "تحديد جميع الملفات الجاهزة ({{selected}}/{{total}})",
+    "confirmSelected": "تأكيد الملفات المحددة ({{count}})",
+    "clearAll": "مسح الكل",
+    "uploadText": "انقر أو اسحب الملفات إلى هذه المنطقة للرفع",
+    "uploadHint": "يدعم PDF، Word، Excel، الصور، إلخ. الحد الأقصى لحجم الملف 50 ميجابايت",
+    "empty": "لا توجد ملفات في منطقة التجهيز",
+    "uploadAlert": {
+      "title": "تذكير الرفع",
+      "description": "فشل رفع {{count}} ملف. يرجى التحقق من تنسيق الملف والحجم قبل المحاولة مرة أخرى."
+    },
+    "totalFiles": "إجمالي {{count}} ملف"
+  },
+  "preview": {
+    "fallbackTitle": "إشعار معاينة PDF",
+    "fallbackDescription": "إذا لم يتم عرض PDF بشكل صحيح، فقد يكون ذلك بسبب مشاكل توافق المتصفح.",
+    "openInNewTab": "فتح الملف في علامة تبويب جديدة"
+  }
+} 

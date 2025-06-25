@@ -1,0 +1,190 @@
+import type { Project, FileItem, FileCategory, ProjectStatus } from '../types';
+import { FILE_STATUS } from '../types';
+
+// 模拟文件分类数据
+export const mockCategories: FileCategory[] = [
+  {
+    id: '1',
+    name: '申请表',
+    description: '设备注册申请表',
+    required: true,
+    order: 1,
+  },
+  {
+    id: '2',
+    name: '产品说明书',
+    description: '设备使用说明书',
+    required: true,
+    order: 2,
+  },
+  {
+    id: '3',
+    name: '产品设计图',
+    description: '设备设计图纸',
+    required: true,
+    order: 3,
+  },
+  {
+    id: '4',
+    name: '技术规格书',
+    description: '设备技术规格说明',
+    required: true,
+    order: 4,
+  },
+  {
+    id: '5',
+    name: '质量管理体系',
+    description: '质量管理体系文件',
+    required: false,
+    order: 5,
+  },
+  {
+    id: '6',
+    name: '检验报告',
+    description: '第三方检验报告',
+    required: true,
+    order: 6,
+  },
+];
+
+// 模拟项目数据
+export const mockProjects: Project[] = [
+  {
+    id: '1',
+    name: '智能听诊器 STS-2024',
+    code: 'STS-2024-001',
+    description: '一款集成AI分析功能的智能听诊器，可以辅助医生进行心肺疾病诊断',
+    type: 'stethoscope',
+    applicant: '上海医疗器械有限公司',
+    createdAt: new Date('2024-01-15'),
+    updatedAt: new Date('2024-12-20'),
+    status: 'active' as ProjectStatus,
+    statistics: {
+      submitted: 6,
+      preliminary: 2,
+      review: 1,
+      approved: 3,
+      rejected: 0,
+      deprecated: 0,
+    },
+    isComplete: false,
+    missingCategories: ['技术规格书', '检验报告'],
+  },
+  {
+    id: '2',
+    name: '便携式血压仪 BP-PRO',
+    code: 'BP-2024-002',
+    description: '高精度便携式血压测量仪，支持蓝牙连接和数据云同步',
+    type: 'bloodPressure',
+    applicant: '北京康健医疗科技股份有限公司',
+    createdAt: new Date('2024-02-10'),
+    updatedAt: new Date('2024-12-18'),
+    status: 'active' as ProjectStatus,
+    statistics: {
+      submitted: 4,
+      preliminary: 3,
+      review: 2,
+      approved: 1,
+      rejected: 0,
+      deprecated: 0,
+    },
+    isComplete: false,
+    missingCategories: ['产品设计图'],
+  },
+  {
+    id: '3',
+    name: '红外体温计 TH-SCAN',
+    code: 'TH-2024-003',
+    description: '非接触式红外体温测量设备，快速精确测量体温',
+    type: 'thermometer',
+    applicant: '广州精准医疗器械有限公司',
+    createdAt: new Date('2024-03-05'),
+    updatedAt: new Date('2024-12-15'),
+    status: 'completed' as ProjectStatus,
+    statistics: {
+      submitted: 0,
+      preliminary: 0,
+      review: 0,
+      approved: 6,
+      rejected: 0,
+      deprecated: 0,
+    },
+    isComplete: true,
+    missingCategories: [],
+  },
+];
+
+// 模拟文件数据
+export const mockFiles: FileItem[] = [
+  {
+    id: '1',
+    projectId: '1',
+    name: '智能听诊器注册申请表.pdf',
+    description: '智能听诊器设备注册申请表，包含基本信息和技术参数',
+    categoryId: '1',
+    category: mockCategories[0],
+    status: FILE_STATUS.APPROVED,
+    fileUrl: '/mock-files/application-form.pdf',
+    fileType: 'pdf',
+    uploadedAt: new Date('2024-01-20'),
+    reviews: [
+      {
+        id: '1',
+        fileId: '1',
+        stage: FILE_STATUS.PRELIMINARY,
+        action: 'approve',
+        comment: '申请表填写完整，格式规范，符合审批要求。',
+        reviewer: '张审批员',
+        reviewedAt: new Date('2024-01-25'),
+      },
+      {
+        id: '2',
+        fileId: '1',
+        stage: FILE_STATUS.REVIEW,
+        action: 'approve',
+        comment: '技术参数详实，申请信息准确无误，建议批准。',
+        reviewer: '李复审员',
+        reviewedAt: new Date('2024-02-01'),
+      },
+    ],
+  },
+  {
+    id: '2',
+    projectId: '1',
+    name: '智能听诊器产品说明书.pdf',
+    description: '设备使用说明书，包含操作指南和注意事项',
+    categoryId: '2',
+    category: mockCategories[1],
+    status: FILE_STATUS.REVIEW,
+    fileUrl: '/mock-files/user-manual.pdf',
+    fileType: 'pdf',
+    uploadedAt: new Date('2024-01-22'),
+    reviews: [
+      {
+        id: '3',
+        fileId: '2',
+        stage: FILE_STATUS.PRELIMINARY,
+        action: 'approve',
+        comment: '说明书内容详细，操作步骤清晰。',
+        reviewer: '王审批员',
+        reviewedAt: new Date('2024-01-28'),
+      },
+    ],
+  },
+  {
+    id: '3',
+    projectId: '1',
+    name: '设备设计图纸.dwg',
+    description: '智能听诊器的结构设计图和电路图',
+    categoryId: '3',
+    category: mockCategories[2],
+    status: FILE_STATUS.PRELIMINARY,
+    fileUrl: '/mock-files/design-drawings.dwg',
+    fileType: 'document',
+    uploadedAt: new Date('2024-01-25'),
+    reviews: [],
+  },
+];
+
+// 模拟API延迟
+export const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms)); 

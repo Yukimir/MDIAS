@@ -1,0 +1,42 @@
+{
+  "list": {
+    "title": "قائمة المشاريع",
+    "create": "مشروع جديد",
+    "search": "البحث في المشاريع",
+    "filter": "تصفية",
+    "noData": "لا توجد مشاريع",
+    "updateTime": "آخر تحديث: {{time}}",
+    "missingFiles": "ملفات غير مكتملة",
+    "missingCategories": "فئات مفقودة: {{categories}}",
+    "statistics": "الإحصائيات",
+    "fileCount": "عدد الملفات: {{count}}"
+  },
+  "detail": {
+    "title": "تفاصيل المشروع",
+    "basicInfo": "المعلومات الأساسية",
+    "files": "ملفات المشروع",
+    "allFiles": "جميع الملفات",
+    "byCategory": "حسب الفئة"
+  },
+  "form": {
+    "title": "معلومات المشروع",
+    "name": "اسم المشروع",
+    "code": "رمز المشروع",
+    "type": "نوع الجهاز",
+    "applicant": "مقدم الطلب",
+    "description": "وصف المشروع",
+    "deviceTypes": {
+      "stethoscope": "سماعة طبية",
+      "bloodPressure": "جهاز قياس ضغط الدم",
+      "thermometer": "مقياس حرارة",
+      "glucose": "جهاز قياس السكر",
+      "xray": "معدات الأشعة السينية",
+      "ultrasound": "معدات الموجات فوق الصوتية"
+    }
+  },
+  "status": {
+    "active": "نشط",
+    "completed": "مكتمل",
+    "suspended": "معلق"
+  }
+} 

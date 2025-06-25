@@ -1,0 +1,56 @@
+{
+  "title": "分类管理",
+  "list": {
+    "title": "文件分类列表",
+    "create": "新建分类",
+    "empty": "暂无分类数据",
+    "total": "共 {{count}} 个分类",
+    "dragTip": "拖拽排序提示",
+    "dragDescription": "您可以通过拖拽分类项目或使用上下箭头按钮来调整分类的显示顺序。"
+  },
+  "form": {
+    "title": "分类信息",
+    "name": "分类名称",
+    "description": "分类描述",
+    "required": "是否必需",
+    "order": "显示顺序",
+    "namePlaceholder": "请输入分类名称",
+    "descriptionPlaceholder": "请输入分类描述",
+    "requiredOptions": {
+      "true": "必需",
+      "false": "可选"
+    }
+  },
+  "actions": {
+    "edit": "编辑",
+    "delete": "删除",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "confirm": "确认",
+    "cancel": "取消"
+  },
+  "modal": {
+    "createTitle": "新建分类",
+    "editTitle": "编辑分类",
+    "deleteTitle": "删除分类",
+    "deleteContent": "确定要删除分类\"{{name}}\"吗？此操作不可撤销。",
+    "deleteConfirm": "确定删除",
+    "deleteCancel": "取消"
+  },
+  "message": {
+    "createSuccess": "分类创建成功",
+    "updateSuccess": "分类更新成功",
+    "deleteSuccess": "分类删除成功",
+    "createError": "分类创建失败",
+    "updateError": "分类更新失败",
+    "deleteError": "分类删除失败",
+    "fetchError": "获取分类列表失败",
+    "orderUpdateSuccess": "分类顺序更新成功"
+  },
+  "validation": {
+    "nameRequired": "分类名称不能为空",
+    "descriptionRequired": "分类描述不能为空",
+    "nameLength": "分类名称长度应在2-50字符之间",
+    "descriptionLength": "分类描述长度应在5-200字符之间"
+  }
+} 

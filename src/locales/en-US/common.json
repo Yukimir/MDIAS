@@ -1,0 +1,48 @@
+{
+  "title": "M.D.I.A.S.",
+  "nav": {
+    "projects": "Projects",
+    "categories": "Categories",
+    "upload": "Upload"
+  },
+  "button": {
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "approve": "Approve",
+    "reject": "Reject",
+    "preview": "Preview",
+    "upload": "Upload",
+    "download": "Download",
+    "back": "Back",
+    "add": "Add",
+    "remove": "Remove",
+    "confirm": "Confirm",
+    "reset": "Reset",
+    "close": "Close",
+    "refresh": "Refresh"
+  },
+  "status": {
+    "submitted": "Submitted",
+    "preliminary": "Under Preliminary Review",
+    "review": "Under Review",
+    "approved": "Approved"
+  },
+  "form": {
+    "required": "This field is required",
+    "name": "Name",
+    "description": "Description",
+    "type": "Type",
+    "code": "Code",
+    "applicant": "Applicant"
+  },
+  "message": {
+    "success": "Operation successful",
+    "error": "Operation failed",
+    "confirm": "Confirm operation",
+    "loading": "Loading..."
+  }
+} 
