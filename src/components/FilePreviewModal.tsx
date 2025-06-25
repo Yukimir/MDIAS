@@ -19,10 +19,8 @@ export const FilePreviewModal: React.FC<FilePreviewModalProps> = ({
 
   if (!file) return null;
 
-  // 固定使用public下的PDF文件，支持GitHub Pages部署
-  const pdfUrl = import.meta.env.DEV 
-    ? '/SDWH-M202103428-3-En.pdf'
-    : `${import.meta.env.BASE_URL}SDWH-M202103428-3-En.pdf`;
+  // 固定使用public下的PDF文件
+  const pdfUrl = '/SDWH-M202103428-3-En.pdf';
 
   return (
     <Modal

@@ -58,9 +58,10 @@ npm run preview
 
 ### 部署配置
 
-1. **仓库设置**: 确保仓库名为 `SFDA`
+1. **仓库设置**: 将代码推送到GitHub仓库
 2. **GitHub Pages**: 在仓库设置中启用GitHub Pages，源选择"GitHub Actions"
-3. **自动部署**: 推送到main分支时自动触发部署
+3. **自定义域名**: (可选) 配置自定义域名
+4. **自动部署**: 推送到main分支时自动触发部署
 
 ### 部署流程
 
@@ -75,9 +76,8 @@ npm run preview
 ### 访问地址
 
 部署成功后，可通过以下地址访问：
-```
-https://<username>.github.io/SFDA/
-```
+- **自定义域名**: `https://your-custom-domain.com`
+- **GitHub Pages默认域名**: `https://<username>.github.io/<repository-name>/`
 
 ## 项目结构
 

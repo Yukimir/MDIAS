@@ -4,12 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // GitHub Pages部署配置
-  base: process.env.NODE_ENV === 'production' ? '/SFDA/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    // 确保资源路径正确
+    // 优化构建输出
     rollupOptions: {
       output: {
         manualChunks: {
