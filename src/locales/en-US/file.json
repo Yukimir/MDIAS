@@ -132,6 +132,15 @@
   "preview": {
     "fallbackTitle": "PDF Preview Notice",
     "fallbackDescription": "If the PDF cannot be displayed properly, it may be due to browser compatibility issues.",
-    "openInNewTab": "Open file in new tab"
+    "openInNewTab": "Open file in new tab",
+    "loading": "Loading PDF...",
+    "pageLoading": "Loading page...",
+    "loadError": "Failed to load PDF file",
+    "error": "Preview Error",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "rotate": "Rotate",
+    "reset": "Reset",
+    "pages": "pages"
   }
 } 

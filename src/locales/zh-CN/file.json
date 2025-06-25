@@ -132,6 +132,15 @@
   "preview": {
     "fallbackTitle": "PDF预览提示",
     "fallbackDescription": "如果PDF无法正常显示，可能是浏览器兼容性问题。",
-    "openInNewTab": "在新标签页中打开文件"
+    "openInNewTab": "在新标签页中打开文件",
+    "loading": "正在加载PDF...",
+    "pageLoading": "正在加载页面...",
+    "loadError": "PDF文件加载失败",
+    "error": "预览错误",
+    "zoomIn": "放大",
+    "zoomOut": "缩小",
+    "rotate": "旋转",
+    "reset": "重置",
+    "pages": "页"
   }
 } 

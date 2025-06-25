@@ -130,6 +130,15 @@
   "preview": {
     "fallbackTitle": "إشعار معاينة PDF",
     "fallbackDescription": "إذا لم يتم عرض PDF بشكل صحيح، فقد يكون ذلك بسبب مشاكل توافق المتصفح.",
-    "openInNewTab": "فتح الملف في علامة تبويب جديدة"
+    "openInNewTab": "فتح الملف في علامة تبويب جديدة",
+    "loading": "جاري تحميل PDF...",
+    "pageLoading": "جاري تحميل الصفحة...",
+    "loadError": "فشل في تحميل ملف PDF",
+    "error": "خطأ في المعاينة",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "rotate": "تدوير",
+    "reset": "إعادة تعيين",
+    "pages": "صفحات"
   }
 } 
