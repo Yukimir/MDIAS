@@ -38,18 +38,16 @@ jobs:
         
       - name: Install dependencies
         run: |
-          cd medical-device-approval
           npm ci
           
       - name: Build
         run: |
-          cd medical-device-approval
           npm run build
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: medical-device-approval/dist
+          path: dist
 
   # 部署作业
   deploy:
