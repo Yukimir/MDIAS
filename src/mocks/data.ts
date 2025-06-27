@@ -60,10 +60,10 @@ export const mockProjects: Project[] = [
     updatedAt: new Date('2024-12-20'),
     status: 'active' as ProjectStatus,
     statistics: {
-      submitted: 6,
-      preliminary: 2,
+      submitted: 3,
+      preliminary: 1,
       review: 1,
-      approved: 3,
+      approved: 1,
       rejected: 0,
       deprecated: 0,
     },
