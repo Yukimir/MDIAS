@@ -47,15 +47,15 @@ export const mockCategories: FileCategory[] = [
   },
 ];
 
-// 模拟项目数据
+// Mock project data
 export const mockProjects: Project[] = [
   {
     id: '1',
-    name: '智能听诊器 STS-2024',
+    name: 'Smart Stethoscope STS-2024',
     code: 'STS-2024-001',
-    description: '一款集成AI分析功能的智能听诊器，可以辅助医生进行心肺疾病诊断',
+    description: 'An intelligent stethoscope with integrated AI analysis functions to assist doctors in diagnosing cardiopulmonary diseases',
     type: 'stethoscope',
-    applicant: '上海医疗器械有限公司',
+    applicant: 'Shanghai Medical Device Co., Ltd.',
     createdAt: new Date('2024-01-15'),
     updatedAt: new Date('2024-12-20'),
     status: 'active' as ProjectStatus,
@@ -72,11 +72,11 @@ export const mockProjects: Project[] = [
   },
   {
     id: '2',
-    name: '便携式血压仪 BP-PRO',
+    name: 'Portable Blood Pressure Monitor BP-PRO',
     code: 'BP-2024-002',
-    description: '高精度便携式血压测量仪，支持蓝牙连接和数据云同步',
+    description: 'High-precision portable blood pressure measuring device with Bluetooth connectivity and cloud data synchronization',
     type: 'bloodPressure',
-    applicant: '北京康健医疗科技股份有限公司',
+    applicant: 'Beijing Kangjian Medical Technology Co., Ltd.',
     createdAt: new Date('2024-02-10'),
     updatedAt: new Date('2024-12-18'),
     status: 'active' as ProjectStatus,
@@ -93,11 +93,11 @@ export const mockProjects: Project[] = [
   },
   {
     id: '3',
-    name: '红外体温计 TH-SCAN',
+    name: 'Infrared Thermometer TH-SCAN',
     code: 'TH-2024-003',
-    description: '非接触式红外体温测量设备，快速精确测量体温',
+    description: 'Non-contact infrared temperature measurement device for fast and accurate body temperature measurement',
     type: 'thermometer',
-    applicant: '广州精准医疗器械有限公司',
+    applicant: 'Guangzhou Precision Medical Device Co., Ltd.',
     createdAt: new Date('2024-03-05'),
     updatedAt: new Date('2024-12-15'),
     status: 'completed' as ProjectStatus,
@@ -114,13 +114,13 @@ export const mockProjects: Project[] = [
   },
 ];
 
-// 模拟文件数据
+// Mock file data
 export const mockFiles: FileItem[] = [
   {
     id: '1',
     projectId: '1',
-    name: '智能听诊器注册申请表.pdf',
-    description: '智能听诊器设备注册申请表，包含基本信息和技术参数',
+    name: 'Smart_Stethoscope_Registration_Application.pdf',
+    description: 'Smart stethoscope device registration application form containing basic information and technical parameters',
     categoryId: '1',
     category: mockCategories[0],
     status: FILE_STATUS.APPROVED,
@@ -133,8 +133,8 @@ export const mockFiles: FileItem[] = [
         fileId: '1',
         stage: FILE_STATUS.PRELIMINARY,
         action: 'approve',
-        comment: '申请表填写完整，格式规范，符合审批要求。',
-        reviewer: '张审批员',
+        comment: 'Application form is complete, well-formatted, and meets approval requirements.',
+        reviewer: 'Zhang Reviewer',
         reviewedAt: new Date('2024-01-25'),
       },
       {
@@ -142,8 +142,8 @@ export const mockFiles: FileItem[] = [
         fileId: '1',
         stage: FILE_STATUS.REVIEW,
         action: 'approve',
-        comment: '技术参数详实，申请信息准确无误，建议批准。',
-        reviewer: '李复审员',
+        comment: 'Technical parameters are detailed and application information is accurate. Approval recommended.',
+        reviewer: 'Li Reviewer',
         reviewedAt: new Date('2024-02-01'),
       },
     ],
@@ -151,8 +151,8 @@ export const mockFiles: FileItem[] = [
   {
     id: '2',
     projectId: '1',
-    name: '智能听诊器产品说明书.pdf',
-    description: '设备使用说明书，包含操作指南和注意事项',
+    name: 'Smart_Stethoscope_User_Manual.pdf',
+    description: 'Device user manual containing operation guide and precautions',
     categoryId: '2',
     category: mockCategories[1],
     status: FILE_STATUS.REVIEW,
@@ -165,8 +165,8 @@ export const mockFiles: FileItem[] = [
         fileId: '2',
         stage: FILE_STATUS.PRELIMINARY,
         action: 'approve',
-        comment: '说明书内容详细，操作步骤清晰。',
-        reviewer: '王审批员',
+        comment: 'Manual content is detailed with clear operation steps.',
+        reviewer: 'Wang Reviewer',
         reviewedAt: new Date('2024-01-28'),
       },
     ],
@@ -174,8 +174,8 @@ export const mockFiles: FileItem[] = [
   {
     id: '3',
     projectId: '1',
-    name: '设备设计图纸.dwg',
-    description: '智能听诊器的结构设计图和电路图',
+    name: 'Device_Design_Drawings.dwg',
+    description: 'Structural design drawings and circuit diagrams of the smart stethoscope',
     categoryId: '3',
     category: mockCategories[2],
     status: FILE_STATUS.PRELIMINARY,
@@ -186,5 +186,5 @@ export const mockFiles: FileItem[] = [
   },
 ];
 
-// 模拟API延迟
+// Mock API delay
 export const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms)); 
